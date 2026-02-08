@@ -9,9 +9,10 @@
 }
 header{
     padding: 1%;
-    background-color: #2C9CD4;
+    background-color: #1976d2;
     color: white;
     font-size: calc(2px + 1.3vw);
+    text-decoration: underline;
 }
 
 #nav-main{
@@ -28,10 +29,9 @@ nav{
 
 nav li{
     width: 80%;
-    background-color: #1040C6;
+    background-color: #0d47a1;
     padding: 3%;
-    border-radius: 15%;
-    margin: 25% auto;
+    margin: 20% auto;
     text-align: center;
 }
 
@@ -44,19 +44,19 @@ nav a{
 main{
     padding: 1%, 2%;
     height: 100vh;
-    background-color: #A5C8FD;
+    background-color: #bbdefb;
     text-align: center;
     width: 70%;
 }
 
 
-#this-one{
+#description{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    margin: 5%, 0%
+    margin: 5%, 5%
 }
 
 main p{
@@ -67,15 +67,20 @@ main p{
 
 h2{
     margin-top: 5%
+
+
 }
 
 h4{
     margin-top: 2.5%
+
+
 }
 
 #heading{
     font-size: calc(2.5px + 2.5vw);
-    background-color: #FFFDD0;
+    background-color: #0d47a1;
+    color: white;
     margin-top: 0%
     text-align: left;
 }
@@ -125,10 +130,8 @@ footer{
 #body{
     text-align: left;
     margin-left: 5%;
-}
+    font-size: calc(1.6px + 1.6vw);
 
-#first-number{
-    box-color: pink;
 }
 
 

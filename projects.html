@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Anna-Mariya's Resume">
+  <link type="text/css" rel="stylesheet" href="resume.css">
+  <title>Education | Resume</title>
+</head>
+<body>
+<div id="page-wrapper">
+  <header>
+    <h1>Anna-Mariya Dzhura</h1>
+    <p>Online Resume</p>
+  </header>
+
+  <div id="nav-main">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="employment.html">Employment</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
+    <main id="calculator"main>
+      <h3 id="heading">Calculator</h3>
+      <div id="this-one">
+        <p>
+          Type in 2 numbers
+        </p>
+      </div>
+      <div>
+        <label for="first-number">First Number</label>
+        <input type="text" id="first-number">
+      </div>
+      <div>
+        <label for="second-number">Second Number</label>
+        <input type="text" id="second-number">
+      </div>
+
+      <div>
+        <button onclick="addition()">+</button>
+        <button onclick="subtraction()">-</button>
+        <button onclick="multiplication()">*</button>
+        <button onclick="division()">/</button>
+        <button onclick="power()">**</button>
+        <button onclick="clearout()" id="clear">Clear</button>
+        <h3 id="output"></h3>
+      </div>
+
+
+    </main>
+  </div>
+</div>
+<footer>
+  <p>All rights reserved to Anna-Mariya Dzhura <a href="">Credits</a> &#169;</p>
+  <div id="time-data"></div>
+</footer>
+</div>
+<script src="calculator.js"></script>
+</body>
+</html>
