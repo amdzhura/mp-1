@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page-wrapper{
+    width: 80vw;
+    margin: 0 auto;
+}
+header{
+    padding: 1%;
+    background-color: #2C9CD4;
+    color: white;
+    font-size: calc(2px + 1.3vw);
+}
+
+#nav-main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+nav{
+    background-color: #5FC0F0;
+    color: white;
+    width: 30%;
+}
+
+nav li{
+    width: 80%;
+    background-color: #1040C6;
+    padding: 3%;
+    border-radius: 15%;
+    margin: 25% auto;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: calc(2px + 1.3vw);
+}
+
+main{
+    padding: 1%, 2%;
+    height: 100vh;
+    background-color: #A5C8FD;
+    text-align: center;
+    width: 70%;
+}
+
+
+#this-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 5%, 0%
+}
+
+main p{
+    line-height: 100%;
+    font-size: calc(2px + 2vw);
+    padding: 2%;
+}
+
+h2{
+    margin-top: 5%
+}
+
+h4{
+    margin-top: 2.5%
+}
+
+#heading{
+    font-size: calc(2.5px + 2.5vw);
+    background-color: #FFFDD0;
+    margin-top: 0%
+    text-align: left;
+}
+
+#clear{
+    color: red;
+}
+
+
+
+
+
+
+main h3{
+    text-align: center;
+    margin: 2%, 0;
+    font-size: calc(2px + 2vw);
+    color: black;
+}
+
+main img{
+    max-width: 40%;
+}
+
+footer{
+    background-color: red;
+    color: white;
+    padding: 1%;
+    text-align: center;
+}
+
+#time-date{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+
+}
+
+#calculator{
+    background-image: url("calculator.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#body{
+    text-align: left;
+    margin-left: 5%;
+}
+
+#first-number{
+    box-color: pink;
+}
+
+
+@media screen and (max-width: 1000px){
+    #nav-main{
+        flex-direction: column;
+    }
+
+    nav, main{
+        width: 100%
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    nav li{
+        width: 18%;
+        padding: 1%;
+        margin: 1%;
+    }
+
+    #this-one{
+        flex-direction: column;
+    }
+
+    header{
+        text-align: center;
+    }
+
+    main{
+        weight: 100vh
+    }
+
+    output{
+        color: red;
+    }
+}
